@@ -31,7 +31,7 @@ public class Main {
 
 	public static void number(int n){
 		if(sc.nextInt()%2==0){
-			System.out.println("the number is even");
+			System.out.println("the number is even ");
 		}
 		else {
 			System.out.println("the number is odd");
@@ -48,6 +48,7 @@ public class Main {
 			System.out.println(m);
 		}
 	}
+	
 	
 	
 }
