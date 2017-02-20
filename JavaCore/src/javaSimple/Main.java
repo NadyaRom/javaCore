@@ -8,7 +8,24 @@ public class Main {
 	private static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] arqs){
-		theNearest(8.5, 10.45);
+		while (true){
+			System.out.println("1 - програма, що перевіряє і повідомляє на екран, чи є ціле число"
+					+ " записане в змінну n, парним або непарним");
+			System.out.println("2 - програма, щщо виводить на екран найближче до 10 з двох"
+					+ " чисел, записаних в змінні m і n");
+
+			switch (sc.nextInt()) {
+			case 1:
+				number(25);
+				break;
+			case 2:
+				theNearest(8.5, 10.45);
+				break;		
+			default:
+				sc.close();
+				break;
+			}
+		}
 		
 	}
 
@@ -31,7 +48,6 @@ public class Main {
 			System.out.println(m);
 		}
 	}
-	
 	
 	
 }
