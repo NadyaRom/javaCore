@@ -58,7 +58,7 @@ public class Main {
 		System.out.println("Enter max diametr of wheel: ");
 		int max=sc.nextInt();
 		int diam = sc.nextInt();
-		Iterator<Car> iterator = cars.iterator();
+		Iterator <Car> iterator = cars.iterator();
 		while (iterator.hasNext()) {
 			Car car = (Car) iterator.next();
 			if(car.getWheel().getDiametrWheel()>=min&&car.getWheel().getDiametrWheel()<=max){
@@ -67,7 +67,7 @@ public class Main {
 
 	}
 }
-	//	Видалити усі машини, які мають введений тип (колір) кузова та введений діапазон діаметра керма
+	//	Видалити усі машини, які  мають введений тип (колір) кузова та введений діапазон діаметра керма
 	public static void method4(){
 		System.out.println("Enter diametr of wheel: ");
 		int diam = sc.nextInt();
